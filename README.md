@@ -17,7 +17,5 @@ numpy==1.26.1
 pandas==2.1.2
 torch==2.1.0
 transformers==4.34.1
-sentence-transformers @ git+https://github.com/UKPLab/sentence-transformers.git@2c4d21cfd5d6bb7bf6067619a701320537d29a01
+sentence-transformers==2.5.1
 ```
-
-We require a development version of the `sentence-transformers` library, since there is an issue with the current release that prevents us from using the library to load the fine-tuned model. We have provided the commit hash of the version we used to ensure reproducibility.
