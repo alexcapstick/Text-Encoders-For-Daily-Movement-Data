@@ -1,5 +1,7 @@
 # Representation Learning of Daily Movement Data Using Text Encoders
 
+This is the code used to produce the results presented in **[Representation Learning of Daily Movement Data Using Text Encoders](https://arxiv.org/abs/2405.04494)**.
+
 ## Abstract
 
 Time-series representation learning is a key area of research for remote healthcare monitoring applications. In this work, we focus on a dataset of recordings of in-home activity from people living with Dementia. We design a representation learning method based on converting activity to text strings that can be encoded using a language model fine-tuned to transform data from the same participants within a $30$-day window to similar embeddings in the vector space. This allows for clustering and vector searching over participants and days, and the identification of activity deviations to aid with personalised delivery of care.
@@ -18,4 +20,15 @@ pandas==2.1.2
 torch==2.1.0
 transformers==4.34.1
 sentence-transformers==2.5.1
+```
+
+If you find this code helpful, please cite:
+```
+@article{capstick2024representation,
+	title = {Representation Learning of Daily Movement Data Using Text Encoders},
+	author = {Alexander Capstick and Tianyu Cui and Yu Chen and Payam Barnaghi},
+	year = 2024,
+	journal = {ICLR Workshop on Learning from Time Series For Health},
+	url = {https://arxiv.org/abs/2405.04494}
+}
 ```
